@@ -2,6 +2,9 @@
 
 A premium, modern, fully responsive educational institution website demo built for **V.J Tuition Center**, Kumbakonam.
 
+- **🌐 Live Demo (GitHub Pages)**: [https://poova-dev.github.io/vj-tuition-center/](https://poova-dev.github.io/vj-tuition-center/)
+- **📦 GitHub Repository**: [https://github.com/poova-dev/vj-tuition-center](https://github.com/poova-dev/vj-tuition-center)
+
 ## 🎓 About the Institution
 - **Institution**: V.J Tuition Center
 - **Location**: TSR Big Street, Kumbakonam, Tamil Nadu
