@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact & Location | V.J Tuition Center Kumbakonam</title>
+  <meta name="description" content="Contact V.J Tuition Center in Kumbakonam. Address at TSR Big Street, phone number +91 94431 23456, WhatsApp, email, map directions, and inquiry form.">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: { 50: '#f0f7ff', 100: '#e0effe', 200: '#b9ddfd', 500: '#2563eb', 700: '#1d4ed8', 800: '#113560', 900: '#0a2540', 950: '#061626' },
+            gold: { 400: '#fbbf24', 500: '#f59e0b', 600: '#d97706', 700: '#b45309' }
+          }
+        }
+      }
+    }
+  </script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased has-mobile-bar selection:bg-brand-900 selection:text-white">
+
+  <!-- TOP BAR -->
+  <div class="bg-brand-950 text-slate-300 text-xs py-2 px-4 border-b border-brand-900/50 hidden sm:block">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+      <div class="flex items-center gap-6">
+        <span class="flex items-center gap-1.5"><i data-lucide="map-pin" class="w-3.5 h-3.5 text-gold-400"></i> TSR Big Street, Kumbakonam, TN 612001</span>
+        <span class="flex items-center gap-1.5"><i data-lucide="clock" class="w-3.5 h-3.5 text-gold-400"></i> Mon - Sat: 6:00 AM – 8:30 PM</span>
+      </div>
+      <div class="flex items-center gap-5">
+        <a href="tel:+919443123456" class="hover:text-white flex items-center gap-1.5 transition"><i data-lucide="phone" class="w-3.5 h-3.5 text-gold-400"></i> +91 94431 23456</a>
+        <span class="text-slate-600">|</span>
+        <span class="inline-flex items-center px-2 py-0.5 rounded text-[11px] font-medium bg-gold-500/20 text-gold-300 border border-gold-500/30">Admissions Open 2026–2027</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <header id="site-header" class="sticky top-0 z-40 bg-white border-b border-slate-200 transition-all duration-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        <a href="index.html" class="flex items-center gap-3.5 group">
+          <img src="assets/images/logo.png" alt="Logo" class="h-14 w-auto object-contain rounded-full shadow-sm ring-2 ring-brand-900/10">
+          <div>
+            <span class="block text-xl font-bold tracking-tight text-brand-900 font-heading leading-tight">V.J TUITION CENTER</span>
+            <span class="block text-[11px] font-semibold tracking-wider text-slate-500 uppercase">Kumbakonam • Est. Excellence</span>
+          </div>
+        </a>
+
+        <nav class="hidden lg:flex items-center space-x-1" aria-label="Main Navigation">
+          <a href="index.html" class="px-3.5 py-2 text-sm font-medium text-slate-700 hover:text-brand-900 hover:bg-slate-100 rounded-lg transition">Home</a>
+          <a href="about.html" class="px-3.5 py-2 text-sm font-medium text-slate-700 hover:text-brand-900 hover:bg-slate-100 rounded-lg transition">About</a>
+          <a href="classes.html" class="px-3.5 py-2 text-sm font-medium text-slate-700 hover:text-brand-900 hover:bg-slate-100 rounded-lg transition">Classes</a>
+          <a href="results.html" class="px-3.5 py-2 text-sm font-medium text-slate-700 hover:text-brand-900 hover:bg-slate-100 rounded-lg transition">Results</a>
+          <a href="faculty.html" class="px-3.5 py-2 text-sm font-medium text-slate-700 hover:text-brand-900 hover:bg-slate-100 rounded-lg transition">Faculty</a>
+          <a href="gallery.html" class="px-3.5 py-2 text-sm font-medium text-slate-700 hover:text-brand-900 hover:bg-slate-100 rounded-lg transition">Gallery</a>
+          <a href="reviews.html" class="px-3.5 py-2 text-sm font-medium text-slate-700 hover:text-brand-900 hover:bg-slate-100 rounded-lg transition">Reviews</a>
+          <a href="faq.html" class="px-3.5 py-2 text-sm font-medium text-slate-700 hover:text-brand-900 hover:bg-slate-100 rounded-lg transition">FAQ</a>
+          <a href="careers.html" class="px-3.5 py-2 text-sm font-medium text-slate-700 hover:text-brand-900 hover:bg-slate-100 rounded-lg transition">Careers</a>
+          <a href="contact.html" class="px-3.5 py-2 text-sm font-semibold text-brand-700 rounded-lg bg-blue-50/80 transition">Contact</a>
+        </nav>
+
+        <div class="hidden lg:flex items-center gap-3">
+          <button data-open-admission class="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-brand-900 text-white font-semibold text-sm shadow-sm hover:bg-brand-800 transition">
+            <i data-lucide="send" class="w-4 h-4 text-gold-400"></i> Enquire Now
+          </button>
+        </div>
+
+        <div class="flex items-center gap-2 lg:hidden">
+          <button data-open-admission class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md bg-brand-900 text-white font-medium text-xs">Enquire</button>
+          <button id="mobile-menu-btn" class="p-2 text-slate-700 hover:text-brand-900 hover:bg-slate-100 rounded-lg"><i data-lucide="menu" class="w-6 h-6"></i></button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- MOBILE DRAWER -->
+  <div id="mobile-menu-overlay" class="fixed inset-0 bg-slate-900/60 z-50 hidden opacity-0 transition-opacity duration-300"></div>
+  <div id="mobile-menu" class="fixed inset-y-0 left-0 w-[290px] max-w-[85vw] bg-white z-50 shadow-2xl flex flex-col -translate-x-full transition-transform duration-300">
+    <div class="p-4 border-b border-slate-200 flex items-center justify-between bg-slate-50">
+      <div class="flex items-center gap-2.5">
+        <img src="assets/images/logo.png" alt="Logo" class="h-10 w-10 rounded-full">
+        <div>
+          <span class="font-bold text-sm text-brand-900 block font-heading">V.J TUITION CENTER</span>
+          <span class="text-[10px] text-slate-500">Kumbakonam</span>
+        </div>
+      </div>
+      <button id="mobile-menu-close" class="p-1.5 text-slate-500 hover:text-slate-800 rounded-lg"><i data-lucide="x" class="w-5 h-5"></i></button>
+    </div>
+    <div class="flex-1 overflow-y-auto p-4 space-y-1 text-sm">
+      <a href="index.html" class="flex items-center gap-3 px-3 py-2 text-slate-700 hover:bg-slate-100 rounded-lg"><i data-lucide="home" class="w-4 h-4"></i> Home</a>
+      <a href="about.html" class="flex items-center gap-3 px-3 py-2 text-slate-700 hover:bg-slate-100 rounded-lg"><i data-lucide="landmark" class="w-4 h-4"></i> About</a>
+      <a href="classes.html" class="flex items-center gap-3 px-3 py-2 text-slate-700 hover:bg-slate-100 rounded-lg"><i data-lucide="book-open" class="w-4 h-4"></i> Classes</a>
+      <a href="results.html" class="flex items-center gap-3 px-3 py-2 text-slate-700 hover:bg-slate-100 rounded-lg"><i data-lucide="trophy" class="w-4 h-4"></i> Results</a>
+      <a href="faculty.html" class="flex items-center gap-3 px-3 py-2 text-slate-700 hover:bg-slate-100 rounded-lg"><i data-lucide="users" class="w-4 h-4"></i> Faculty</a>
+      <a href="gallery.html" class="flex items-center gap-3 px-3 py-2 text-slate-700 hover:bg-slate-100 rounded-lg"><i data-lucide="image" class="w-4 h-4"></i> Gallery</a>
+      <a href="reviews.html" class="flex items-center gap-3 px-3 py-2 text-slate-700 hover:bg-slate-100 rounded-lg"><i data-lucide="star" class="w-4 h-4"></i> Reviews</a>
+      <a href="faq.html" class="flex items-center gap-3 px-3 py-2 text-slate-700 hover:bg-slate-100 rounded-lg"><i data-lucide="help-circle" class="w-4 h-4"></i> FAQ</a>
+      <a href="careers.html" class="flex items-center gap-3 px-3 py-2 text-slate-700 hover:bg-slate-100 rounded-lg"><i data-lucide="briefcase" class="w-4 h-4"></i> Careers</a>
+      <a href="contact.html" class="flex items-center gap-3 px-3 py-2 font-semibold text-brand-700 bg-blue-50 rounded-lg"><i data-lucide="map-pin" class="w-4 h-4"></i> Contact</a>
+    </div>
+  </div>
+
+  <main>
+    <!-- PAGE HERO -->
+    <section class="hero-pattern text-white py-16 lg:py-20 relative overflow-hidden">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
+        <span class="institutional-badge bg-blue-900/80 border-blue-400/40 text-blue-200">Connect With Us</span>
+        <h1 class="text-3xl sm:text-5xl font-extrabold font-heading text-white">Contact & Campus Location</h1>
+        <p class="text-base sm:text-lg text-slate-300 max-w-2xl mx-auto leading-relaxed">
+          Visit our center at TSR Big Street, Kumbakonam, call our office, or drop a message to schedule an admission interaction.
+        </p>
+      </div>
+    </section>
+
+    <!-- CONTACT GRID & FORM -->
+    <section class="py-20 bg-slate-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="grid lg:grid-cols-12 gap-12 items-start">
+          
+          <!-- Contact Info Cards -->
+          <div class="lg:col-span-5 space-y-6">
+            
+            <div class="institution-card p-6 bg-white space-y-4">
+              <h2 class="text-xl font-bold text-brand-900 font-heading">Kumbakonam Center Details</h2>
+              <p class="text-xs text-slate-600 leading-relaxed">
+                Centrally located in the heart of Kumbakonam, easily accessible from the central bus stand, railway station, and prominent neighborhood schools.
+              </p>
+
+              <div class="space-y-4 pt-2 text-xs">
+                <!-- Address -->
+                <div class="flex items-start gap-3.5">
+                  <div class="w-9 h-9 rounded-lg bg-blue-50 text-brand-700 flex items-center justify-center shrink-0">
+                    <i data-lucide="map-pin" class="w-4 h-4"></i>
+                  </div>
+                  <div>
+                    <span class="font-bold text-slate-900 block">Address:</span>
+                    <span class="text-slate-600 leading-relaxed">V.J Tuition Center, TSR Big Street, Kumbakonam, Thanjavur District, Tamil Nadu 612001</span>
+                  </div>
+                </div>
+
+                <!-- Phone -->
+                <div class="flex items-start gap-3.5">
+                  <div class="w-9 h-9 rounded-lg bg-emerald-50 text-emerald-700 flex items-center justify-center shrink-0">
+                    <i data-lucide="phone" class="w-4 h-4"></i>
+                  </div>
+                  <div>
+                    <span class="font-bold text-slate-900 block">Telephone / Mobile:</span>
+                    <a href="tel:+919443123456" class="text-brand-700 font-semibold hover:underline">+91 94431 23456</a> / +91 94432 XXXXX
+                  </div>
+                </div>
+
+                <!-- WhatsApp -->
+                <div class="flex items-start gap-3.5">
+                  <div class="w-9 h-9 rounded-lg bg-emerald-50 text-emerald-700 flex items-center justify-center shrink-0">
+                    <i data-lucide="message-circle" class="w-4 h-4"></i>
+                  </div>
+                  <div>
+                    <span class="font-bold text-slate-900 block">WhatsApp Admissions:</span>
+                    <a href="https://wa.me/919443123456?text=Hello%20VJ%20Tuition%20Center%20Kumbakonam" target="_blank" class="text-emerald-600 font-semibold hover:underline">+91 94431 23456 (Instant Chat)</a>
+                  </div>
+                </div>
+
+                <!-- Email -->
+                <div class="flex items-start gap-3.5">
+                  <div class="w-9 h-9 rounded-lg bg-purple-50 text-purple-700 flex items-center justify-center shrink-0">
+                    <i data-lucide="mail" class="w-4 h-4"></i>
+                  </div>
+                  <div>
+                    <span class="font-bold text-slate-900 block">Email Address:</span>
+                    <span class="text-slate-600">admissions@vjtuitionkumbakonam.com<br>vjtuitioncenter@gmail.com</span>
+                  </div>
+                </div>
+
+                <!-- Office Hours -->
+                <div class="flex items-start gap-3.5">
+                  <div class="w-9 h-9 rounded-lg bg-amber-50 text-gold-700 flex items-center justify-center shrink-0">
+                    <i data-lucide="clock" class="w-4 h-4"></i>
+                  </div>
+                  <div>
+                    <span class="font-bold text-slate-900 block">Center Working Hours:</span>
+                    <span class="text-slate-600">Monday – Saturday: 6:00 AM – 8:30 PM<br>Sunday: 7:00 AM – 1:00 PM</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Founder Section Snippet -->
+            <div class="institution-card p-5 bg-brand-900 text-white flex items-center gap-4">
+              <img src="assets/images/founder_sriram.jpg" alt="Sriram J" class="w-14 h-14 rounded-xl object-cover border border-gold-400/50">
+              <div>
+                <h4 class="font-bold text-sm font-heading">Sriram J</h4>
+                <p class="text-xs text-gold-400">Founder & Academic Director</p>
+                <p class="text-[11px] text-slate-300 mt-0.5">"Parents are always welcome to meet me personally for academic counseling."</p>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Contact Form -->
+          <div class="lg:col-span-7">
+            <div class="institution-card p-6 sm:p-8 bg-white border border-slate-200">
+              <span class="institutional-badge mb-3">Send a Message</span>
+              <h2 class="text-2xl font-bold text-brand-900 font-heading mb-1">Get in Touch with our Office</h2>
+              <p class="text-xs text-slate-500 mb-6">Leave your details below and our counselor will call you within a few hours.</p>
+
+              <form id="contact-form" class="space-y-4">
+                
+                <div class="grid sm:grid-cols-2 gap-4">
+                  <div>
+                    <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Full Name <span class="text-red-500">*</span></label>
+                    <input type="text" name="name" required placeholder="e.g. R. Subramanian" class="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm outline-none">
+                  </div>
+                  <div>
+                    <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Phone Number <span class="text-red-500">*</span></label>
+                    <input type="tel" name="phone" required placeholder="10-digit mobile number" class="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm outline-none">
+                  </div>
+                </div>
+
+                <div class="grid sm:grid-cols-2 gap-4">
+                  <div>
+                    <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Email Address</label>
+                    <input type="email" name="email" placeholder="name@email.com" class="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm outline-none">
+                  </div>
+                  <div>
+                    <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Subject of Inquiry</label>
+                    <input type="text" name="subject" placeholder="e.g. 10th CBSE Batch Timings" class="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm outline-none">
+                  </div>
+                </div>
+
+                <div>
+                  <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Message / Question <span class="text-red-500">*</span></label>
+                  <textarea name="message" required rows="4" placeholder="How can we help you or your child?" class="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm outline-none"></textarea>
+                </div>
+
+                <div class="pt-2">
+                  <button type="submit" class="w-full sm:w-auto px-8 py-3.5 rounded-xl bg-brand-900 hover:bg-brand-800 text-white font-bold text-sm shadow-md transition flex items-center justify-center gap-2">
+                    <i data-lucide="send" class="w-4 h-4 text-gold-400"></i>
+                    Send Message (Demo)
+                  </button>
+                  <p class="text-[11px] text-slate-400 mt-2">*Demo form: submitted inquiries are stored in browser localStorage.</p>
+                </div>
+
+              </form>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- GOOGLE MAPS PLACEHOLDER / EMBED -->
+    <section class="py-16 bg-white border-t border-slate-200">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
+        <div class="text-center max-w-2xl mx-auto">
+          <span class="institutional-badge mb-2">Location Map</span>
+          <h2 class="text-2xl sm:text-3xl font-bold text-brand-900 font-heading">Find Us in Kumbakonam</h2>
+          <p class="text-xs text-slate-600 mt-1">Conveniently situated in central Kumbakonam near TSR Big Street.</p>
+        </div>
+
+        <!-- Styled Interactive Map Box -->
+        <div class="rounded-2xl overflow-hidden shadow-lg border border-slate-200 relative bg-slate-100 h-96">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15663.972322588365!2d79.37320475!3d10.96323675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a553372c3d52627%3A0x6d36e2f1cf440268!2sKumbakonam%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
+            width="100%" 
+            height="100%" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"
+            title="V.J Tuition Center Kumbakonam Map Location">
+          </iframe>
+          
+          <!-- Map Overlay Badge -->
+          <div class="absolute bottom-4 left-4 bg-white/95 backdrop-blur-md p-4 rounded-xl shadow-xl border border-slate-200 max-w-xs text-xs hidden sm:block">
+            <div class="flex items-center gap-2 mb-1">
+              <span class="w-3 h-3 rounded-full bg-red-600 animate-ping"></span>
+              <span class="font-bold text-slate-900 font-heading">V.J Tuition Center</span>
+            </div>
+            <p class="text-slate-600">TSR Big Street, Kumbakonam, TN 612001</p>
+            <a href="https://maps.google.com/?q=Kumbakonam+Tamil+Nadu" target="_blank" rel="noopener" class="text-blue-700 font-bold hover:underline inline-flex items-center gap-1 mt-2">
+              <span>Open in Google Maps</span>
+              <i data-lucide="external-link" class="w-3 h-3"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-brand-950 text-slate-400 border-t border-slate-800 pt-12 pb-10 text-xs">
+    <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row justify-between items-center gap-4">
+      <div class="flex items-center gap-3">
+        <img src="assets/images/logo.png" alt="Logo" class="h-10 w-10 rounded-full">
+        <div>
+          <span class="font-bold text-white block">V.J TUITION CENTER</span>
+          <span class="text-slate-500">Kumbakonam, Tamil Nadu</span>
+        </div>
+      </div>
+      <div>&copy; 2026 V.J Tuition Center. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <!-- MOBILE BAR -->
+  <div class="fixed bottom-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-md border-t border-slate-200 py-2 px-4 md:hidden shadow-lg">
+    <div class="grid grid-cols-4 gap-1 text-center">
+      <a href="index.html" class="flex flex-col items-center py-1 text-slate-600"><i data-lucide="home" class="w-5 h-5"></i><span class="text-[10px] mt-1">Home</span></a>
+      <a href="tel:+919443123456" class="flex flex-col items-center py-1 text-slate-600"><i data-lucide="phone" class="w-5 h-5 text-emerald-600"></i><span class="text-[10px] mt-1">Call</span></a>
+      <a href="https://wa.me/919443123456" target="_blank" class="flex flex-col items-center py-1 text-slate-600"><i data-lucide="message-circle" class="w-5 h-5 text-emerald-600"></i><span class="text-[10px] mt-1">WhatsApp</span></a>
+      <button data-open-admission class="flex flex-col items-center py-1 text-brand-900"><div class="bg-brand-900 text-white rounded-full p-1.5"><i data-lucide="send" class="w-3.5 h-3.5 text-gold-400"></i></div><span class="text-[10px] font-bold mt-0.5">Enquire</span></button>
+    </div>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

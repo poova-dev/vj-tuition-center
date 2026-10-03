@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Faculty & Academic Mentors | V.J Tuition Center Kumbakonam</title>
+  <meta name="description" content="Meet our dedicated subject specialists and mentors at V.J Tuition Center Kumbakonam. Mathematics, Physics, Chemistry, Biology, Commerce and Primary specialists.">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: { 50: '#f0f7ff', 100: '#e0effe', 200: '#b9ddfd', 500: '#2563eb', 700: '#1d4ed8', 800: '#113560', 900: '#0a2540', 950: '#061626' },
+            gold: { 400: '#fbbf24', 500: '#f59e0b', 600: '#d97706', 700: '#b45309' }
+          }
+        }
+      }
+    }
+  </script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased has-mobile-bar selection:bg-brand-900 selection:text-white">
+
+  <!-- TOP BAR -->
+  <div class="bg-brand-950 text-slate-300 text-xs py-2 px-4 border-b border-brand-900/50 hidden sm:block">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+      <div class="flex items-center gap-6">
+        <span class="flex items-center gap-1.5"><i data-lucide="map-pin" class="w-3.5 h-3.5 text-gold-400"></i> TSR Big Street, Kumbakonam</span>
+        <span class="flex items-center gap-1.5"><i data-lucide="users" class="w-3.5 h-3.5 text-gold-400"></i> Experienced Post-Graduate Educators</span>
+      </div>
+      <div class="flex items-center gap-5">
+        <a href="tel:+919443123456" class="hover:text-white flex items-center gap-1.5 transition"><i data-lucide="phone" class="w-3.5 h-3.5 text-gold-400"></i> +91 94431 23456</a>
+        <span class="text-slate-600">|</span>
+        <span class="inline-flex items-center px-2 py-0.5 rounded text-[11px] font-medium bg-gold-500/20 text-gold-300 border border-gold-500/30">Admissions Open 2026–2027</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <header id="site-header" class="sticky top-0 z-40 bg-white border-b border-slate-200 transition-all duration-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        <a href="index.html" class="flex items-center gap-3.5 group">
+          <img src="assets/images/logo.png" alt="Logo" class="h-14 w-auto object-contain rounded-full shadow-sm ring-2 ring-brand-900/10">
+          <div>
+            <span class="block text-xl font-bold tracking-tight text-brand-900 font-heading leading-tight">V.J TUITION CENTER</span>
+            <span class="block text-[11px] font-semibold tracking-wider text-slate-500 uppercase">Kumbakonam • Est. Excellence</span>
+          </div>
+        </a>
+
+        <nav class="hidden lg:flex items-center space-x-1" aria-label="Main Navigation">
+          <a href="index.html" class="px-3.5 py-2 text-sm font-medium text-slate-700 hover:text-brand-900 hover:bg-slate-100 rounded-lg transition">Home</a>
+          <a href="about.html" class="px-3.5 py-2 text-sm font-medium text-slate-700 hover:text-brand-900 hover:bg-slate-100 rounded-lg transition">About</a>
+          <a href="classes.html" class="px-3.5 py-2 text-sm font-medium text-slate-700 hover:text-brand-900 hover:bg-slate-100 rounded-lg transition">Classes</a>
+          <a href="results.html" class="px-3.5 py-2 text-sm font-medium text-slate-700 hover:text-brand-900 hover:bg-slate-100 rounded-lg transition">Results</a>
+          <a href="faculty.html" class="px-3.5 py-2 text-sm font-semibold text-brand-700 rounded-lg bg-blue-50/80 transition">Faculty</a>
+          <a href="gallery.html" class="px-3.5 py-2 text-sm font-medium text-slate-700 hover:text-brand-900 hover:bg-slate-100 rounded-lg transition">Gallery</a>
+          <a href="reviews.html" class="px-3.5 py-2 text-sm font-medium text-slate-700 hover:text-brand-900 hover:bg-slate-100 rounded-lg transition">Reviews</a>
+          <a href="faq.html" class="px-3.5 py-2 text-sm font-medium text-slate-700 hover:text-brand-900 hover:bg-slate-100 rounded-lg transition">FAQ</a>
+          <a href="careers.html" class="px-3.5 py-2 text-sm font-medium text-slate-700 hover:text-brand-900 hover:bg-slate-100 rounded-lg transition">Careers</a>
+          <a href="contact.html" class="px-3.5 py-2 text-sm font-medium text-slate-700 hover:text-brand-900 hover:bg-slate-100 rounded-lg transition">Contact</a>
+        </nav>
+
+        <div class="hidden lg:flex items-center gap-3">
+          <button data-open-admission class="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-brand-900 text-white font-semibold text-sm shadow-sm hover:bg-brand-800 transition">
+            <i data-lucide="send" class="w-4 h-4 text-gold-400"></i> Enquire Now
+          </button>
+        </div>
+
+        <div class="flex items-center gap-2 lg:hidden">
+          <button data-open-admission class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md bg-brand-900 text-white font-medium text-xs">Enquire</button>
+          <button id="mobile-menu-btn" class="p-2 text-slate-700 hover:text-brand-900 hover:bg-slate-100 rounded-lg"><i data-lucide="menu" class="w-6 h-6"></i></button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- MOBILE DRAWER -->
+  <div id="mobile-menu-overlay" class="fixed inset-0 bg-slate-900/60 z-50 hidden opacity-0 transition-opacity duration-300"></div>
+  <div id="mobile-menu" class="fixed inset-y-0 left-0 w-[290px] max-w-[85vw] bg-white z-50 shadow-2xl flex flex-col -translate-x-full transition-transform duration-300">
+    <div class="p-4 border-b border-slate-200 flex items-center justify-between bg-slate-50">
+      <div class="flex items-center gap-2.5">
+        <img src="assets/images/logo.png" alt="Logo" class="h-10 w-10 rounded-full">
+        <div>
+          <span class="font-bold text-sm text-brand-900 block font-heading">V.J TUITION CENTER</span>
+          <span class="text-[10px] text-slate-500">Kumbakonam</span>
+        </div>
+      </div>
+      <button id="mobile-menu-close" class="p-1.5 text-slate-500 hover:text-slate-800 rounded-lg"><i data-lucide="x" class="w-5 h-5"></i></button>
+    </div>
+    <div class="flex-1 overflow-y-auto p-4 space-y-1 text-sm">
+      <a href="index.html" class="flex items-center gap-3 px-3 py-2 text-slate-700 hover:bg-slate-100 rounded-lg"><i data-lucide="home" class="w-4 h-4"></i> Home</a>
+      <a href="about.html" class="flex items-center gap-3 px-3 py-2 text-slate-700 hover:bg-slate-100 rounded-lg"><i data-lucide="landmark" class="w-4 h-4"></i> About</a>
+      <a href="classes.html" class="flex items-center gap-3 px-3 py-2 text-slate-700 hover:bg-slate-100 rounded-lg"><i data-lucide="book-open" class="w-4 h-4"></i> Classes</a>
+      <a href="results.html" class="flex items-center gap-3 px-3 py-2 text-slate-700 hover:bg-slate-100 rounded-lg"><i data-lucide="trophy" class="w-4 h-4"></i> Results</a>
+      <a href="faculty.html" class="flex items-center gap-3 px-3 py-2 font-semibold text-brand-700 bg-blue-50 rounded-lg"><i data-lucide="users" class="w-4 h-4"></i> Faculty</a>
+      <a href="gallery.html" class="flex items-center gap-3 px-3 py-2 text-slate-700 hover:bg-slate-100 rounded-lg"><i data-lucide="image" class="w-4 h-4"></i> Gallery</a>
+      <a href="reviews.html" class="flex items-center gap-3 px-3 py-2 text-slate-700 hover:bg-slate-100 rounded-lg"><i data-lucide="star" class="w-4 h-4"></i> Reviews</a>
+      <a href="faq.html" class="flex items-center gap-3 px-3 py-2 text-slate-700 hover:bg-slate-100 rounded-lg"><i data-lucide="help-circle" class="w-4 h-4"></i> FAQ</a>
+      <a href="careers.html" class="flex items-center gap-3 px-3 py-2 text-slate-700 hover:bg-slate-100 rounded-lg"><i data-lucide="briefcase" class="w-4 h-4"></i> Careers</a>
+      <a href="contact.html" class="flex items-center gap-3 px-3 py-2 text-slate-700 hover:bg-slate-100 rounded-lg"><i data-lucide="map-pin" class="w-4 h-4"></i> Contact</a>
+    </div>
+  </div>
+
+  <main>
+    <!-- PAGE HERO -->
+    <section class="hero-pattern text-white py-16 lg:py-20 relative overflow-hidden">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
+        <span class="institutional-badge bg-blue-900/80 border-blue-400/40 text-blue-200">Our Educators</span>
+        <h1 class="text-3xl sm:text-5xl font-extrabold font-heading text-white">Dedicated Faculty Team</h1>
+        <p class="text-base sm:text-lg text-slate-300 max-w-2xl mx-auto leading-relaxed">
+          Subject-matter specialists with years of experience simplifying complex concepts and nurturing every student's intellectual growth.
+        </p>
+      </div>
+    </section>
+
+    <!-- CLIENT NOTE -->
+    <div class="bg-blue-50 border-b border-blue-200 py-3 px-4 text-center text-xs text-blue-800">
+      <div class="max-w-4xl mx-auto flex items-center justify-center gap-2">
+        <i data-lucide="info" class="w-4 h-4 text-blue-600 shrink-0"></i>
+        <span><strong>Client Demo Structure:</strong> Faculty profiles below are cleanly structured with placeholder credentials and can be quickly updated with actual staff photos and resumes.</span>
+      </div>
+    </div>
+
+    <!-- FACULTY GRID -->
+    <section class="py-20 bg-slate-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          
+          <!-- Faculty 1 -->
+          <div class="institution-card overflow-hidden bg-white group">
+            <div class="relative overflow-hidden aspect-[4/3] bg-slate-100">
+              <img src="assets/images/faculty_math.jpg" alt="Mr. Rajesh K." class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+              <div class="absolute bottom-3 left-3 bg-brand-950/80 backdrop-blur-sm text-white px-2.5 py-0.5 rounded text-xs font-semibold">
+                14+ Years Experience
+              </div>
+            </div>
+            <div class="p-6 space-y-3">
+              <div>
+                <h3 class="font-bold text-brand-900 text-lg font-heading">Mr. Rajesh K.</h3>
+                <p class="text-xs text-brand-700 font-semibold">Senior Mathematics Faculty</p>
+                <p class="text-xs text-slate-500">M.Sc., B.Ed. (Mathematics)</p>
+              </div>
+              <p class="text-xs text-slate-600 leading-relaxed">
+                Specialized in SSLC, CBSE 10th and +2 Higher Secondary Mathematics. Known for his step-by-step clarity in calculus, coordinate geometry, and board exam answer presentation.
+              </p>
+              <div class="border-t border-slate-100 pt-3 flex items-center justify-between text-xs text-slate-500">
+                <span>Classes 9, 10, 11 & 12</span>
+                <span class="text-gold-600 font-semibold">Centum Mentor</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Faculty 2 -->
+          <div class="institution-card overflow-hidden bg-white group">
+            <div class="relative overflow-hidden aspect-[4/3] bg-slate-100">
+              <img src="assets/images/faculty_physics.jpg" alt="Mrs. Priya Sundaram" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+              <div class="absolute bottom-3 left-3 bg-brand-950/80 backdrop-blur-sm text-white px-2.5 py-0.5 rounded text-xs font-semibold">
+                12+ Years Experience
+              </div>
+            </div>
+            <div class="p-6 space-y-3">
+              <div>
+                <h3 class="font-bold text-brand-900 text-lg font-heading">Mrs. Priya Sundaram</h3>
+                <p class="text-xs text-brand-700 font-semibold">Senior Physics Faculty</p>
+                <p class="text-xs text-slate-500">M.Sc., M.Phil. (Physics)</p>
+              </div>
+              <p class="text-xs text-slate-600 leading-relaxed">
+                Expert in electrostatics, optics, and thermodynamics. Focuses on real-world physics demonstrations and rigorous numerical problem solving for higher secondary students.
+              </p>
+              <div class="border-t border-slate-100 pt-3 flex items-center justify-between text-xs text-slate-500">
+                <span>Classes 10, 11 & 12</span>
+                <span class="text-gold-600 font-semibold">Practical Specialist</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Faculty 3 -->
+          <div class="institution-card overflow-hidden bg-white group">
+            <div class="relative overflow-hidden aspect-[4/3] bg-slate-100">
+              <img src="assets/images/faculty_chemistry.jpg" alt="Mr. Ananth N." class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+              <div class="absolute bottom-3 left-3 bg-brand-950/80 backdrop-blur-sm text-white px-2.5 py-0.5 rounded text-xs font-semibold">
+                10+ Years Experience
+              </div>
+            </div>
+            <div class="p-6 space-y-3">
+              <div>
+                <h3 class="font-bold text-brand-900 text-lg font-heading">Mr. Ananth N.</h3>
+                <p class="text-xs text-brand-700 font-semibold">Chemistry Faculty</p>
+                <p class="text-xs text-slate-500">M.Sc., B.Ed. (Chemistry)</p>
+              </div>
+              <p class="text-xs text-slate-600 leading-relaxed">
+                Transforms organic conversions, chemical kinetics, and the periodic table into structured, easy-to-remember memory frameworks for State & CBSE boards.
+              </p>
+              <div class="border-t border-slate-100 pt-3 flex items-center justify-between text-xs text-slate-500">
+                <span>Classes 10, 11 & 12</span>
+                <span class="text-gold-600 font-semibold">Organic Chemistry Lead</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Faculty 4 -->
+          <div class="institution-card overflow-hidden bg-white group">
+            <div class="relative overflow-hidden aspect-[4/3] bg-slate-100">
+              <img src="assets/images/faculty_biology.jpg" alt="Mrs. Meenakshi S." class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+              <div class="absolute bottom-3 left-3 bg-brand-950/80 backdrop-blur-sm text-white px-2.5 py-0.5 rounded text-xs font-semibold">
+                11+ Years Experience
+              </div>
+            </div>
+            <div class="p-6 space-y-3">
+              <div>
+                <h3 class="font-bold text-brand-900 text-lg font-heading">Mrs. Meenakshi S.</h3>
+                <p class="text-xs text-brand-700 font-semibold">Biology & Science Lead</p>
+                <p class="text-xs text-slate-500">M.Sc., B.Ed. (Botany & Zoology)</p>
+              </div>
+              <p class="text-xs text-slate-600 leading-relaxed">
+                Known for meticulous diagrammatic training, physiology notes, and genetics breakdown. Leads both middle school science and higher secondary biology.
+              </p>
+              <div class="border-t border-slate-100 pt-3 flex items-center justify-between text-xs text-slate-500">
+                <span>Classes 6 to 12</span>
+                <span class="text-gold-600 font-semibold">Science Head</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Faculty 5: English & Social (Demo structured) -->
+          <div class="institution-card overflow-hidden bg-white group">
+            <div class="relative overflow-hidden aspect-[4/3] bg-slate-100 flex items-center justify-center text-slate-400">
+              <div class="w-20 h-20 rounded-full bg-blue-100 text-brand-800 flex items-center justify-center font-bold text-2xl font-heading">
+                G.V
+              </div>
+              <div class="absolute bottom-3 left-3 bg-brand-950/80 backdrop-blur-sm text-white px-2.5 py-0.5 rounded text-xs font-semibold">
+                9+ Years Experience
+              </div>
+            </div>
+            <div class="p-6 space-y-3">
+              <div>
+                <h3 class="font-bold text-brand-900 text-lg font-heading">Mr. G. Venkatesh</h3>
+                <p class="text-xs text-brand-700 font-semibold">English & Social Studies Lead</p>
+                <p class="text-xs text-slate-500">M.A., B.Ed. (English Literature)</p>
+              </div>
+              <p class="text-xs text-slate-600 leading-relaxed">
+                Trains students in rigorous English grammar, creative essay writing, reading comprehension, and detailed timeline memory techniques for 10th Social Science.
+              </p>
+              <div class="border-t border-slate-100 pt-3 flex items-center justify-between text-xs text-slate-500">
+                <span>Classes 6 to 10</span>
+                <span class="text-gold-600 font-semibold">Grammar Specialist</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Faculty 6: Commerce & Accountancy (Demo structured) -->
+          <div class="institution-card overflow-hidden bg-white group">
+            <div class="relative overflow-hidden aspect-[4/3] bg-slate-100 flex items-center justify-center text-slate-400">
+              <div class="w-20 h-20 rounded-full bg-amber-100 text-gold-700 flex items-center justify-center font-bold text-2xl font-heading">
+                S.R
+              </div>
+              <div class="absolute bottom-3 left-3 bg-brand-950/80 backdrop-blur-sm text-white px-2.5 py-0.5 rounded text-xs font-semibold">
+                13+ Years Experience
+              </div>
+            </div>
+            <div class="p-6 space-y-3">
+              <div>
+                <h3 class="font-bold text-brand-900 text-lg font-heading">Mrs. Selvi Ramanathan</h3>
+                <p class="text-xs text-brand-700 font-semibold">Commerce & Accountancy Lead</p>
+                <p class="text-xs text-slate-500">M.Com., M.Phil. (Commerce)</p>
+              </div>
+              <p class="text-xs text-slate-600 leading-relaxed">
+                Exceptional record of guiding 12th commerce students to Centum scores in Accountancy and Business Studies. Simplifies partnership deeds, balance sheets, and company accounts.
+              </p>
+              <div class="border-t border-slate-100 pt-3 flex items-center justify-between text-xs text-slate-500">
+                <span>Classes 11 & 12</span>
+                <span class="text-gold-600 font-semibold">Commerce Mentor</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- FACULTY INTERACTION CTA -->
+    <section class="py-16 bg-white border-t border-slate-200">
+      <div class="max-w-4xl mx-auto px-4 text-center space-y-5">
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-brand-900 font-heading">Book an Academic Diagnostic with Our Mentors</h2>
+        <p class="text-sm text-slate-600 max-w-xl mx-auto">
+          Not sure where your child needs academic reinforcement? Our subject faculty conducts a personalized 20-minute diagnostic session to assess fundamentals.
+        </p>
+        <div>
+          <button data-open-admission class="px-6 py-3 rounded-xl bg-brand-900 hover:bg-brand-800 text-white font-bold text-sm shadow-md transition">
+            Request Diagnostic Session
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-brand-950 text-slate-400 border-t border-slate-800 pt-12 pb-10 text-xs">
+    <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row justify-between items-center gap-4">
+      <div class="flex items-center gap-3">
+        <img src="assets/images/logo.png" alt="Logo" class="h-10 w-10 rounded-full">
+        <div>
+          <span class="font-bold text-white block">V.J TUITION CENTER</span>
+          <span class="text-slate-500">Kumbakonam, Tamil Nadu</span>
+        </div>
+      </div>
+      <div>&copy; 2026 V.J Tuition Center. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <!-- MOBILE BAR -->
+  <div class="fixed bottom-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-md border-t border-slate-200 py-2 px-4 md:hidden shadow-lg">
+    <div class="grid grid-cols-4 gap-1 text-center">
+      <a href="index.html" class="flex flex-col items-center py-1 text-slate-600"><i data-lucide="home" class="w-5 h-5"></i><span class="text-[10px] mt-1">Home</span></a>
+      <a href="tel:+919443123456" class="flex flex-col items-center py-1 text-slate-600"><i data-lucide="phone" class="w-5 h-5 text-emerald-600"></i><span class="text-[10px] mt-1">Call</span></a>
+      <a href="https://wa.me/919443123456" target="_blank" class="flex flex-col items-center py-1 text-slate-600"><i data-lucide="message-circle" class="w-5 h-5 text-emerald-600"></i><span class="text-[10px] mt-1">WhatsApp</span></a>
+      <button data-open-admission class="flex flex-col items-center py-1 text-brand-900"><div class="bg-brand-900 text-white rounded-full p-1.5"><i data-lucide="send" class="w-3.5 h-3.5 text-gold-400"></i></div><span class="text-[10px] font-bold mt-0.5">Enquire</span></button>
+    </div>
+  </div>
+
+  <!-- ADMISSION MODAL -->
+  <div id="admission-modal" class="modal-backdrop fixed inset-0 bg-slate-900/70 z-50 flex items-center justify-center p-4 backdrop-blur-sm" role="dialog" aria-modal="true">
+    <div class="modal-content bg-white w-full max-w-lg rounded-2xl shadow-2xl border border-slate-200 overflow-hidden flex flex-col max-h-[92vh]">
+      <div class="p-5 bg-brand-900 text-white flex items-center justify-between">
+        <div class="flex items-center gap-3">
+          <img src="assets/images/logo.png" alt="Logo" class="w-9 h-9 rounded-full">
+          <div><h3 class="font-bold text-base font-heading">Admission Enquiry 2026–2027</h3><p class="text-xs text-blue-200">V.J Tuition Center, Kumbakonam</p></div>
+        </div>
+        <button data-close-modal="admission-modal" class="p-1.5 text-slate-300 hover:text-white rounded-lg"><i data-lucide="x" class="w-5 h-5"></i></button>
+      </div>
+      <form id="admission-modal-form" class="p-6 overflow-y-auto space-y-4">
+        <div><label class="block text-xs font-bold text-slate-700 uppercase mb-1">Student Name *</label><input type="text" name="student_name" required placeholder="e.g. S. Arvind Kumar" class="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm outline-none"></div>
+        <div><label class="block text-xs font-bold text-slate-700 uppercase mb-1">Parent Name *</label><input type="text" name="parent_name" required placeholder="e.g. R. Sundararajan" class="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm outline-none"></div>
+        <div class="grid grid-cols-2 gap-4">
+          <div><label class="block text-xs font-bold text-slate-700 uppercase mb-1">Phone Number *</label><input type="tel" name="phone" required placeholder="10-digit mobile" class="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm outline-none"></div>
+          <div><label class="block text-xs font-bold text-slate-700 uppercase mb-1">Class *</label>
+            <select name="class" required class="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm bg-white">
+              <option value="">Select Class</option>
+              <option value="KG & Primary (1-5)">KG & Primary (1–5)</option>
+              <option value="Class 6-8">Class 6–8</option>
+              <option value="Class 9-10">Class 9–10</option>
+              <option value="Class 11-12">Class 11–12</option>
+            </select>
+          </div>
+        </div>
+        <div><button type="submit" class="w-full py-3 rounded-xl bg-brand-900 hover:bg-brand-800 text-white font-bold text-sm shadow-md transition">Submit Admission Enquiry</button></div>
+      </form>
+    </div>
+  </div>
+
+  <div id="admission-success-modal" class="modal-backdrop fixed inset-0 bg-slate-900/70 z-50 flex items-center justify-center p-4 backdrop-blur-sm" role="dialog" aria-modal="true">
+    <div class="modal-content bg-white w-full max-w-md rounded-2xl shadow-2xl p-6 text-center space-y-4">
+      <div class="w-14 h-14 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center mx-auto"><i data-lucide="check-circle-2" class="w-8 h-8"></i></div>
+      <h3 class="text-2xl font-bold text-brand-900 font-heading">Enquiry Received!</h3>
+      <p class="text-xs text-slate-600">Your details have been saved in demo storage.</p>
+      <button data-close-modal="admission-success-modal" class="w-full py-2 bg-slate-100 text-slate-700 rounded-lg text-xs font-semibold">Close</button>
+    </div>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

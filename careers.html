@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Careers & Faculty Openings | V.J Tuition Center Kumbakonam</title>
+  <meta name="description" content="Build your academic teaching career at V.J Tuition Center Kumbakonam. Openings for Mathematics Faculty, Science Faculty, and Administrative Staff.">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: { 50: '#f0f7ff', 100: '#e0effe', 200: '#b9ddfd', 500: '#2563eb', 700: '#1d4ed8', 800: '#113560', 900: '#0a2540', 950: '#061626' },
+            gold: { 400: '#fbbf24', 500: '#f59e0b', 600: '#d97706', 700: '#b45309' }
+          }
+        }
+      }
+    }
+  </script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased has-mobile-bar selection:bg-brand-900 selection:text-white">
+
+  <!-- TOP BAR -->
+  <div class="bg-brand-950 text-slate-300 text-xs py-2 px-4 border-b border-brand-900/50 hidden sm:block">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+      <div class="flex items-center gap-6">
+        <span class="flex items-center gap-1.5"><i data-lucide="map-pin" class="w-3.5 h-3.5 text-gold-400"></i> TSR Big Street, Kumbakonam</span>
+        <span class="flex items-center gap-1.5"><i data-lucide="briefcase" class="w-3.5 h-3.5 text-gold-400"></i> Join Our Academic Team</span>
+      </div>
+      <div class="flex items-center gap-5">
+        <a href="tel:+919443123456" class="hover:text-white flex items-center gap-1.5 transition"><i data-lucide="phone" class="w-3.5 h-3.5 text-gold-400"></i> +91 94431 23456</a>
+        <span class="text-slate-600">|</span>
+        <span class="inline-flex items-center px-2 py-0.5 rounded text-[11px] font-medium bg-gold-500/20 text-gold-300 border border-gold-500/30">Careers Demo</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <header id="site-header" class="sticky top-0 z-40 bg-white border-b border-slate-200 transition-all duration-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        <a href="index.html" class="flex items-center gap-3.5 group">
+          <img src="assets/images/logo.png" alt="Logo" class="h-14 w-auto object-contain rounded-full shadow-sm ring-2 ring-brand-900/10">
+          <div>
+            <span class="block text-xl font-bold tracking-tight text-brand-900 font-heading leading-tight">V.J TUITION CENTER</span>
+            <span class="block text-[11px] font-semibold tracking-wider text-slate-500 uppercase">Kumbakonam • Est. Excellence</span>
+          </div>
+        </a>
+
+        <nav class="hidden lg:flex items-center space-x-1" aria-label="Main Navigation">
+          <a href="index.html" class="px-3.5 py-2 text-sm font-medium text-slate-700 hover:text-brand-900 hover:bg-slate-100 rounded-lg transition">Home</a>
+          <a href="about.html" class="px-3.5 py-2 text-sm font-medium text-slate-700 hover:text-brand-900 hover:bg-slate-100 rounded-lg transition">About</a>
+          <a href="classes.html" class="px-3.5 py-2 text-sm font-medium text-slate-700 hover:text-brand-900 hover:bg-slate-100 rounded-lg transition">Classes</a>
+          <a href="results.html" class="px-3.5 py-2 text-sm font-medium text-slate-700 hover:text-brand-900 hover:bg-slate-100 rounded-lg transition">Results</a>
+          <a href="faculty.html" class="px-3.5 py-2 text-sm font-medium text-slate-700 hover:text-brand-900 hover:bg-slate-100 rounded-lg transition">Faculty</a>
+          <a href="gallery.html" class="px-3.5 py-2 text-sm font-medium text-slate-700 hover:text-brand-900 hover:bg-slate-100 rounded-lg transition">Gallery</a>
+          <a href="reviews.html" class="px-3.5 py-2 text-sm font-medium text-slate-700 hover:text-brand-900 hover:bg-slate-100 rounded-lg transition">Reviews</a>
+          <a href="faq.html" class="px-3.5 py-2 text-sm font-medium text-slate-700 hover:text-brand-900 hover:bg-slate-100 rounded-lg transition">FAQ</a>
+          <a href="careers.html" class="px-3.5 py-2 text-sm font-semibold text-brand-700 rounded-lg bg-blue-50/80 transition">Careers</a>
+          <a href="contact.html" class="px-3.5 py-2 text-sm font-medium text-slate-700 hover:text-brand-900 hover:bg-slate-100 rounded-lg transition">Contact</a>
+        </nav>
+
+        <div class="hidden lg:flex items-center gap-3">
+          <button data-open-admission class="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-brand-900 text-white font-semibold text-sm shadow-sm hover:bg-brand-800 transition">
+            <i data-lucide="send" class="w-4 h-4 text-gold-400"></i> Enquire Now
+          </button>
+        </div>
+
+        <div class="flex items-center gap-2 lg:hidden">
+          <button data-open-admission class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md bg-brand-900 text-white font-medium text-xs">Enquire</button>
+          <button id="mobile-menu-btn" class="p-2 text-slate-700 hover:text-brand-900 hover:bg-slate-100 rounded-lg"><i data-lucide="menu" class="w-6 h-6"></i></button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- MOBILE DRAWER -->
+  <div id="mobile-menu-overlay" class="fixed inset-0 bg-slate-900/60 z-50 hidden opacity-0 transition-opacity duration-300"></div>
+  <div id="mobile-menu" class="fixed inset-y-0 left-0 w-[290px] max-w-[85vw] bg-white z-50 shadow-2xl flex flex-col -translate-x-full transition-transform duration-300">
+    <div class="p-4 border-b border-slate-200 flex items-center justify-between bg-slate-50">
+      <div class="flex items-center gap-2.5">
+        <img src="assets/images/logo.png" alt="Logo" class="h-10 w-10 rounded-full">
+        <div>
+          <span class="font-bold text-sm text-brand-900 block font-heading">V.J TUITION CENTER</span>
+          <span class="text-[10px] text-slate-500">Kumbakonam</span>
+        </div>
+      </div>
+      <button id="mobile-menu-close" class="p-1.5 text-slate-500 hover:text-slate-800 rounded-lg"><i data-lucide="x" class="w-5 h-5"></i></button>
+    </div>
+    <div class="flex-1 overflow-y-auto p-4 space-y-1 text-sm">
+      <a href="index.html" class="flex items-center gap-3 px-3 py-2 text-slate-700 hover:bg-slate-100 rounded-lg"><i data-lucide="home" class="w-4 h-4"></i> Home</a>
+      <a href="about.html" class="flex items-center gap-3 px-3 py-2 text-slate-700 hover:bg-slate-100 rounded-lg"><i data-lucide="landmark" class="w-4 h-4"></i> About</a>
+      <a href="classes.html" class="flex items-center gap-3 px-3 py-2 text-slate-700 hover:bg-slate-100 rounded-lg"><i data-lucide="book-open" class="w-4 h-4"></i> Classes</a>
+      <a href="results.html" class="flex items-center gap-3 px-3 py-2 text-slate-700 hover:bg-slate-100 rounded-lg"><i data-lucide="trophy" class="w-4 h-4"></i> Results</a>
+      <a href="faculty.html" class="flex items-center gap-3 px-3 py-2 text-slate-700 hover:bg-slate-100 rounded-lg"><i data-lucide="users" class="w-4 h-4"></i> Faculty</a>
+      <a href="gallery.html" class="flex items-center gap-3 px-3 py-2 text-slate-700 hover:bg-slate-100 rounded-lg"><i data-lucide="image" class="w-4 h-4"></i> Gallery</a>
+      <a href="reviews.html" class="flex items-center gap-3 px-3 py-2 text-slate-700 hover:bg-slate-100 rounded-lg"><i data-lucide="star" class="w-4 h-4"></i> Reviews</a>
+      <a href="faq.html" class="flex items-center gap-3 px-3 py-2 text-slate-700 hover:bg-slate-100 rounded-lg"><i data-lucide="help-circle" class="w-4 h-4"></i> FAQ</a>
+      <a href="careers.html" class="flex items-center gap-3 px-3 py-2 font-semibold text-brand-700 bg-blue-50 rounded-lg"><i data-lucide="briefcase" class="w-4 h-4"></i> Careers</a>
+      <a href="contact.html" class="flex items-center gap-3 px-3 py-2 text-slate-700 hover:bg-slate-100 rounded-lg"><i data-lucide="map-pin" class="w-4 h-4"></i> Contact</a>
+    </div>
+  </div>
+
+  <main>
+    <!-- PAGE HERO -->
+    <section class="hero-pattern text-white py-16 lg:py-20 relative overflow-hidden">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
+        <span class="institutional-badge bg-blue-900/80 border-blue-400/40 text-blue-200">Teaching Opportunities</span>
+        <h1 class="text-3xl sm:text-5xl font-extrabold font-heading text-white">Build Your Career With Us</h1>
+        <p class="text-base sm:text-lg text-slate-300 max-w-2xl mx-auto leading-relaxed">
+          Join an esteemed institution in Kumbakonam dedicated to academic integrity, passionate teaching, and student mentorship.
+        </p>
+      </div>
+    </section>
+
+    <!-- CLIENT DEMO NOTICE -->
+    <div class="bg-amber-50 border-b border-amber-200 py-3 px-4 text-center text-xs text-amber-800">
+      <div class="max-w-4xl mx-auto flex items-center justify-center gap-2">
+        <i data-lucide="info" class="w-4 h-4 text-amber-600 shrink-0"></i>
+        <span><strong>Sample Openings Demo:</strong> The positions below are illustrative templates for presentation. Prospective applicants can submit demo forms which store safely in your browser.</span>
+      </div>
+    </div>
+
+    <!-- JOB CARDS SECTION -->
+    <section class="py-20 bg-slate-50">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
+        
+        <!-- Job 1: Mathematics Faculty -->
+        <div class="institution-card p-6 sm:p-8 bg-white border border-slate-200 flex flex-col md:flex-row md:items-center justify-between gap-6">
+          <div class="space-y-3 max-w-2xl">
+            <div class="flex items-center gap-3">
+              <span class="w-10 h-10 rounded-xl bg-blue-100 text-brand-700 flex items-center justify-center shrink-0">
+                <i data-lucide="calculator" class="w-5 h-5"></i>
+              </span>
+              <div>
+                <span class="text-[11px] font-bold uppercase tracking-wider text-blue-600">Sample Opening</span>
+                <h3 class="text-xl font-bold text-brand-900 font-heading">Senior Mathematics Faculty</h3>
+              </div>
+            </div>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+              Seeking an experienced educator to handle 10th SSLC/CBSE and 11th/12th Higher Secondary Mathematics. Responsible for curriculum delivery, question bank solving, and weekly assessments.
+            </p>
+            <div class="flex flex-wrap gap-2 text-xs text-slate-500 pt-1">
+              <span class="px-2.5 py-1 rounded bg-slate-100 flex items-center gap-1"><i data-lucide="graduation-cap" class="w-3.5 h-3.5"></i> M.Sc. / B.Ed. Math</span>
+              <span class="px-2.5 py-1 rounded bg-slate-100 flex items-center gap-1"><i data-lucide="clock" class="w-3.5 h-3.5"></i> Evening Batch (5:00 - 8:30 PM)</span>
+              <span class="px-2.5 py-1 rounded bg-slate-100 flex items-center gap-1"><i data-lucide="map-pin" class="w-3.5 h-3.5"></i> Kumbakonam Center</span>
+            </div>
+          </div>
+          <div class="shrink-0">
+            <button data-apply-job data-job-title="Senior Mathematics Faculty" class="w-full sm:w-auto px-6 py-3 rounded-xl bg-brand-900 hover:bg-brand-800 text-white font-bold text-xs shadow-md transition flex items-center justify-center gap-2">
+              <i data-lucide="send" class="w-4 h-4 text-gold-400"></i> Apply Now
+            </button>
+          </div>
+        </div>
+
+        <!-- Job 2: Science Faculty -->
+        <div class="institution-card p-6 sm:p-8 bg-white border border-slate-200 flex flex-col md:flex-row md:items-center justify-between gap-6">
+          <div class="space-y-3 max-w-2xl">
+            <div class="flex items-center gap-3">
+              <span class="w-10 h-10 rounded-xl bg-emerald-100 text-emerald-700 flex items-center justify-center shrink-0">
+                <i data-lucide="atom" class="w-5 h-5"></i>
+              </span>
+              <div>
+                <span class="text-[11px] font-bold uppercase tracking-wider text-emerald-600">Sample Opening</span>
+                <h3 class="text-xl font-bold text-brand-900 font-heading">Science Faculty (Physics / Chemistry)</h3>
+              </div>
+            </div>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+              Educator required for teaching Physics and Chemistry for classes 9 through 12. Must have solid theoretical grounding and ability to explain complex numerical derivations effortlessly.
+            </p>
+            <div class="flex flex-wrap gap-2 text-xs text-slate-500 pt-1">
+              <span class="px-2.5 py-1 rounded bg-slate-100 flex items-center gap-1"><i data-lucide="graduation-cap" class="w-3.5 h-3.5"></i> M.Sc. Physics / Chemistry</span>
+              <span class="px-2.5 py-1 rounded bg-slate-100 flex items-center gap-1"><i data-lucide="clock" class="w-3.5 h-3.5"></i> Morning / Evening Batches</span>
+              <span class="px-2.5 py-1 rounded bg-slate-100 flex items-center gap-1"><i data-lucide="map-pin" class="w-3.5 h-3.5"></i> Kumbakonam Center</span>
+            </div>
+          </div>
+          <div class="shrink-0">
+            <button data-apply-job data-job-title="Science Faculty (Physics / Chemistry)" class="w-full sm:w-auto px-6 py-3 rounded-xl bg-brand-900 hover:bg-brand-800 text-white font-bold text-xs shadow-md transition flex items-center justify-center gap-2">
+              <i data-lucide="send" class="w-4 h-4 text-gold-400"></i> Apply Now
+            </button>
+          </div>
+        </div>
+
+        <!-- Job 3: Administrative Staff -->
+        <div class="institution-card p-6 sm:p-8 bg-white border border-slate-200 flex flex-col md:flex-row md:items-center justify-between gap-6">
+          <div class="space-y-3 max-w-2xl">
+            <div class="flex items-center gap-3">
+              <span class="w-10 h-10 rounded-xl bg-purple-100 text-purple-700 flex items-center justify-center shrink-0">
+                <i data-lucide="user-cog" class="w-5 h-5"></i>
+              </span>
+              <div>
+                <span class="text-[11px] font-bold uppercase tracking-wider text-purple-600">Sample Opening</span>
+                <h3 class="text-xl font-bold text-brand-900 font-heading">Administrative Staff & Student Coordinator</h3>
+              </div>
+            </div>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+              Seeking an energetic, organized coordinator to handle parent communications, batch scheduling, fee administration, and student attendance logs at our Kumbakonam center.
+            </p>
+            <div class="flex flex-wrap gap-2 text-xs text-slate-500 pt-1">
+              <span class="px-2.5 py-1 rounded bg-slate-100 flex items-center gap-1"><i data-lucide="graduation-cap" class="w-3.5 h-3.5"></i> Any Degree / Diploma</span>
+              <span class="px-2.5 py-1 rounded bg-slate-100 flex items-center gap-1"><i data-lucide="clock" class="w-3.5 h-3.5"></i> Full Time (Office Hours)</span>
+              <span class="px-2.5 py-1 rounded bg-slate-100 flex items-center gap-1"><i data-lucide="message-square" class="w-3.5 h-3.5"></i> Tamil & English Fluency</span>
+            </div>
+          </div>
+          <div class="shrink-0">
+            <button data-apply-job data-job-title="Administrative Staff & Student Coordinator" class="w-full sm:w-auto px-6 py-3 rounded-xl bg-brand-900 hover:bg-brand-800 text-white font-bold text-xs shadow-md transition flex items-center justify-center gap-2">
+              <i data-lucide="send" class="w-4 h-4 text-gold-400"></i> Apply Now
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- WHY WORK AT V.J TUITION -->
+    <section class="py-16 bg-white border-t border-slate-200">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-10">
+          <span class="institutional-badge mb-2">Work Culture</span>
+          <h2 class="text-2xl sm:text-3xl font-bold text-brand-900 font-heading">Why Teach at V.J Tuition Center?</h2>
+        </div>
+        <div class="grid sm:grid-cols-3 gap-6 text-center">
+          <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 space-y-2">
+            <div class="w-10 h-10 rounded-full bg-blue-100 text-brand-800 flex items-center justify-center mx-auto"><i data-lucide="heart-handshake" class="w-5 h-5"></i></div>
+            <h4 class="font-bold text-brand-900 text-sm">Respectful Environment</h4>
+            <p class="text-xs text-slate-600">A disciplined, ethical coaching atmosphere where teachers are respected as primary leaders.</p>
+          </div>
+          <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 space-y-2">
+            <div class="w-10 h-10 rounded-full bg-amber-100 text-gold-700 flex items-center justify-center mx-auto"><i data-lucide="trending-up" class="w-5 h-5"></i></div>
+            <h4 class="font-bold text-brand-900 text-sm">Competitive Remuneration</h4>
+            <p class="text-xs text-slate-600">Timely salary, merit incentives for student Centum achievers, and long-term security.</p>
+          </div>
+          <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 space-y-2">
+            <div class="w-10 h-10 rounded-full bg-emerald-100 text-emerald-800 flex items-center justify-center mx-auto"><i data-lucide="award" class="w-5 h-5"></i></div>
+            <h4 class="font-bold text-brand-900 text-sm">Merit Recognition</h4>
+            <p class="text-xs text-slate-600">Annual institutional awards honoring dedicated educators and subject leads.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- CAREER APPLICATION MODAL -->
+  <div id="career-modal" class="modal-backdrop fixed inset-0 bg-slate-900/70 z-50 flex items-center justify-center p-4 backdrop-blur-sm" role="dialog" aria-modal="true" aria-labelledby="career-modal-title">
+    <div class="modal-content bg-white w-full max-w-lg rounded-2xl shadow-2xl border border-slate-200 overflow-hidden flex flex-col max-h-[92vh]">
+      
+      <div class="p-5 bg-brand-900 text-white flex items-center justify-between">
+        <div class="flex items-center gap-3">
+          <img src="assets/images/logo.png" alt="Logo" class="w-9 h-9 rounded-full">
+          <div>
+            <h3 id="career-modal-title" class="font-bold text-base font-heading">Job Application Form</h3>
+            <p id="career-modal-job-title" class="text-xs text-gold-400 font-semibold">Faculty Opening</p>
+          </div>
+        </div>
+        <button data-close-modal="career-modal" class="p-1.5 text-slate-300 hover:text-white rounded-lg"><i data-lucide="x" class="w-5 h-5"></i></button>
+      </div>
+
+      <form id="career-form" class="p-6 overflow-y-auto space-y-4">
+        <div>
+          <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Full Name <span class="text-red-500">*</span></label>
+          <input type="text" name="full_name" required placeholder="e.g. S. Ramanujam" class="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm outline-none">
+        </div>
+
+        <div class="grid grid-cols-2 gap-4">
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Phone Number <span class="text-red-500">*</span></label>
+            <input type="tel" name="phone" required placeholder="10-digit mobile" class="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm outline-none">
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Email Address <span class="text-red-500">*</span></label>
+            <input type="email" name="email" required placeholder="name@email.com" class="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm outline-none">
+          </div>
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Target Position <span class="text-red-500">*</span></label>
+          <select id="career-position" name="position" required class="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm bg-white outline-none">
+            <option value="Senior Mathematics Faculty">Senior Mathematics Faculty</option>
+            <option value="Science Faculty (Physics / Chemistry)">Science Faculty (Physics / Chemistry)</option>
+            <option value="Administrative Staff & Student Coordinator">Administrative Staff & Student Coordinator</option>
+            <option value="Primary School Educator">Primary School Educator</option>
+            <option value="English & Grammar Specialist">English & Grammar Specialist</option>
+          </select>
+        </div>
+
+        <div class="grid grid-cols-2 gap-4">
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Qualification <span class="text-red-500">*</span></label>
+            <input type="text" name="qualification" required placeholder="e.g. M.Sc., B.Ed." class="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm outline-none">
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Teaching Experience</label>
+            <select name="experience" class="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm bg-white outline-none">
+              <option value="Fresh Graduate / 0-1 yr">Fresh Graduate / 0-1 yr</option>
+              <option value="2 - 5 years">2 - 5 years</option>
+              <option value="5 - 10 years">5 - 10 years</option>
+              <option value="10+ years">10+ years</option>
+            </select>
+          </div>
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Upload Resume (PDF / Word)</label>
+          <input type="file" name="resume" accept=".pdf,.doc,.docx" class="w-full text-xs text-slate-500 file:mr-4 file:py-2 file:px-4 file:rounded-md file:border-0 file:text-xs file:font-semibold file:bg-blue-50 file:text-brand-700 hover:file:bg-blue-100">
+          <p class="text-[10px] text-slate-400 mt-1">*Demo: File name will be captured and stored in browser memory.</p>
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Cover Note / Teaching Philosophy</label>
+          <textarea name="message" rows="2" placeholder="Briefly mention your subjects and teaching approach..." class="w-full px-3.5 py-2 rounded-lg border border-slate-300 text-sm outline-none"></textarea>
+        </div>
+
+        <div class="pt-2">
+          <button type="submit" class="w-full py-3 rounded-xl bg-brand-900 hover:bg-brand-800 text-white font-bold text-sm shadow-md transition flex items-center justify-center gap-2">
+            <i data-lucide="check" class="w-4 h-4 text-gold-400"></i> Submit Application (Demo)
+          </button>
+        </div>
+      </form>
+
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="bg-brand-950 text-slate-400 border-t border-slate-800 pt-12 pb-10 text-xs">
+    <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row justify-between items-center gap-4">
+      <div class="flex items-center gap-3">
+        <img src="assets/images/logo.png" alt="Logo" class="h-10 w-10 rounded-full">
+        <div>
+          <span class="font-bold text-white block">V.J TUITION CENTER</span>
+          <span class="text-slate-500">Kumbakonam, Tamil Nadu</span>
+        </div>
+      </div>
+      <div>&copy; 2026 V.J Tuition Center. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <!-- MOBILE BAR -->
+  <div class="fixed bottom-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-md border-t border-slate-200 py-2 px-4 md:hidden shadow-lg">
+    <div class="grid grid-cols-4 gap-1 text-center">
+      <a href="index.html" class="flex flex-col items-center py-1 text-slate-600"><i data-lucide="home" class="w-5 h-5"></i><span class="text-[10px] mt-1">Home</span></a>
+      <a href="tel:+919443123456" class="flex flex-col items-center py-1 text-slate-600"><i data-lucide="phone" class="w-5 h-5 text-emerald-600"></i><span class="text-[10px] mt-1">Call</span></a>
+      <a href="https://wa.me/919443123456" target="_blank" class="flex flex-col items-center py-1 text-slate-600"><i data-lucide="message-circle" class="w-5 h-5 text-emerald-600"></i><span class="text-[10px] mt-1">WhatsApp</span></a>
+      <button data-open-admission class="flex flex-col items-center py-1 text-brand-900"><div class="bg-brand-900 text-white rounded-full p-1.5"><i data-lucide="send" class="w-3.5 h-3.5 text-gold-400"></i></div><span class="text-[10px] font-bold mt-0.5">Enquire</span></button>
+    </div>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
